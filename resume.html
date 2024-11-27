@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>index page</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    a{
+  color:#2c05dd;
+}
+a:hover{
+  color: blanchedalmond;
+}
+footer a{
+  color:rgb(68, 228, 228)
+}
+footer a:hover{
+  color:rgb(162, 36, 174)
+}
+html{
+  box-sizing: border-box;
+}
+,::before,*::after{
+  box-sizing: inherit;
+}
+
+/* INDEX PAGE ---------------*/
+.home{
+  background-image: url(./OIP.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.home .content-wrapper
+{
+  background:#dad0b0;
+  
+  background-image: url(./bg-coffee-shop.jpg);
+  margin-bottom: 200px ;
+  margin-top: 100px;
+  flex: 1 0 auto;
+  padding: 10px;
+  opacity: 0.8;
+  font-size: 20px;
+  
+.conatiner{
+background: rgb(255 255 255 / 0.9);
+}
+}
+.footer
+{
+  background:black;
+  color: white;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+}   
+.btn{
+  background: #aea1c8;
+}
+.tags{
+  list-style-type: none;
+  padding:0;
+}
+.tags li{
+  display:inline-block;
+  margin-right: 10px;
+}
+html,body{
+  width:100%;
+  height: 100%;
+}
+.content-wrapper{
+  margin: 0 auto;
+  width: 900px;
+}
+/* RESUME PAGE---------------*/
+.resume header::before{
+  background: url(./bg-home-office-city.jpg);
+  background-size:cover ;
+  display:block;
+  height: 375px;
+  content:"";
+}
+
+.project-items{
+  display: flow-root;
+  margin:30px 0;
+}
+.project-items img{
+  width:300px;
+  float:left;
+  margin-right: 20px;
+
+}
+.resume-section{
+  margin-bottom: 50px;
+
+}
+.resume-section h2{
+  border-bottom: 2px dashed #d3d4d6;
+}
+.download-link{
+  position:fixed;
+  top: 5px;
+    left: 5px;
+}
+
+
+  </style>
+</head>
+
+<body class="home">
+  <!-- //  INTRO  // -->
+  <div class="content-wrapper">
+    <div class="container">
+    <header>
+      <!-- Start content edits below this line. -->
+      <h1>BHUMIKA M G</h1>
+      <h2>Full stack Developer</h2>
+
+      <!-- End content edits here. -->
+    </header>
+
+
+
+    <!-- //  ABOUT ME  // -->
+    <main>
+      <!-- Start content edits below this line. -->
+      <p>I am Bhumika M G currently pursuing a Master of Computer Applications (MCA) from Siddaganga Institute of
+        Technology,
+        Tumkur, with a strong academic background, including a Bachelor Of Computer Applications(BCA) in kuvempuy university shankarghatta . I  had hands-on experience in web development, demonstrated through projects like
+        Agro-center (an agricultural product website) and Teacher Record management system(a Dynamic site maintains
+        teacher details.).I am
+        skilled in programming languages like C, Java, HTML, CSS, and basic SQL, with additional strengths in logical
+        reasoning and data structures.</p>
+      <p>To learn more about my work history, check out my <a href="./project.html"> resume</a>. Thanks for stopping by!
+      </p>
+
+      <!-- End content edits here. -->
+    </main>
+</div>
+  </div>
+  <br>
+  <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
+  <footer>
+    <div class="footer">
+      <!-- Start content edits below this line. -->
+      <p>© 2023 by Bhumika mg| <a href="mailto:email@example.com">bhoomikamg10@gmail.com</a></p>
+<!-- Add or remove any networks. -->
+<ul class="tags">
+  <li>
+  <a href="https://www.twitter.com/" target="_blank"><img src="./icon-logo-twitter.png" height="30" width="30"></a>
+  </li>
+  <li>
+  <a href="https://www.linkdein.com/" target="_blank"><img src="./icon-logo-linkedin.png" height="30" width="30"></a>
+  </li>
+  <li><a href="https://www.facebook.com/" target="_blank"><img src="./icon-logo-facebook.png" height="30" width="30" ></a></li>
+  <li>
+  <a href="https://www.youtube.com/" target="_blank"><img src="./icon-logo-youtube.png" height="30" width="30"></a>
+  </li>
+  <li>
+  <a href="https://www.instagram.com/" target="_blank"><img src="./icon-logo-instagram.png" height="30" width="30"></a>
+  </li>
+  </ul>
+     <!-- End content edits here. -->
+    </div>
+  </footer>
+
+</body>
+
+</html>
